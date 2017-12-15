@@ -1,0 +1,126 @@
+<div class="col-md-7">
+
+	<div class="row jumbotron light-blue curved shadow align-middle col-md-12 center-block">
+		<h1>Welcome to TaleemSystem!</h1>
+		<p>This is where you achieve your desired goals.</p>
+	</div>
+
+	<div class="row  light-green col-md-12 center-block shadow curved" style=" margin-bottom:5px;">
+		<p class="row l-heading dark-green">What are you getting here?</p>
+		<ul class="list">
+			<li>Best institutes near you</li>
+			<li>Best teachers for your subjects</li>
+			<li>Best books for your subjects</li>
+			<li>Best solution to your problems</li>
+			<li>Best path for your success</li>
+			<li>Best academic solutions</li>
+		</ul>
+	</div>
+
+	<div class="row col-md-12 col-xs-12 light-blue center-block shadow curved" style="margin-top: 15px; margin-bottom:15px;">
+		<p class="row dark-blue l-heading">Quotes about goals</p>
+		<div class="col-md-9"><img class="img-responsive" src="pics/goals.jpg" style="margin-bottom: 10px;"></div>
+		<div class="col-md-3">
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				Stay focused, go after your dreams and keep moving toward your goals.
+			</p>
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				Setting goals is the first step in turning the invisible into the visible.
+			</p>
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				Discipline is the bridge between goals and accomplishment.
+			</p>
+		</div>
+	</div>
+	<div class="row col-md-12 col-xs-12 light-green center-block shadow curved" style="margin-top: 15px; margin-bottom:15px;">
+		<p class="row dark-green l-heading">Quotes about Team</p>
+		<div class="col-md-9"><img class="img-responsive" src="pics/team.jpg" style="margin-bottom: 10px;"></div>
+		<div class="col-md-3">
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				When a team outgrows individual performance and learns team confidence, excellence becomes a reality.
+			</p>
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				Teamwork makes the dream work, but a vision becomes a nightmare when the leader has a big dream and a bad team.
+			</p>
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				There is no 'i' in team but there is in win.
+			</p>
+		</div>
+	</div>
+	<div class="row col-md-12 col-xs-12 light-blue center-block shadow curved" style="margin-top: 15px; margin-bottom:15px;">
+		<p class="row dark-blue l-heading">Quotes about Path</p>
+		<div class="col-md-9">
+			<img class="img-responsive" src="pics/path.jpg" style="margin-bottom: 10px;">
+		</div>
+		<div class="col-md-3">
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				I see my path, but I don't know where it leads. Not knowing where I'm going is what inspires me to travel it.
+			</p>
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.
+			</p>
+			<p class="row list-group-item" style="margin-bottom: 5px;">
+				If you're walking down the right path and you're willing to keep walking, eventually you'll make progress.
+			</p>
+		</div>
+	</div>
+
+</div>
+
+<div class="col-md-3 col-xs-12 visible-md hidden-sm hidden-xs visible-lg" style="padding-top: 20px; position: fixed; right:0px;">
+	<!-- <div class="row  col-md-12 homepage-search">
+		<label class="row s-heading padding-left col-md-12" for="search">Search</label>
+		<input type="text" class="form-control " id="search">
+	</br>
+	</div> -->
+
+	<div class="height-1 row col-md-12 col-xs-12">
+	<ul class="list-group">
+		<li class="list-heading">Best rated Institutes</li>
+		<li ng-repeat="school in bestschools" class="list-group-item">{{school[0]}}</li>
+	</ul>
+	</div>
+
+	<div class="height-1 row col-md-12 col-xs-12">
+	<ul class="list-group">
+		<li class="list-heading">Best rated Teachers</li>
+		<li ng-repeat="teacher in bestteachers" class="list-group-item">{{teacher[0]}}</li>
+	</ul>
+	</div>
+
+	<div class="height-1  row col-md-12 col-xs-12">
+	<ul class="list-group">
+		<li class="list-heading">Best rated Books</li>
+		<li ng-repeat="book in bestbooks" class="list-group-item">{{book[0]}}</li>
+	</ul>
+	</div>
+</div>
+
+<div class="col-xs-12 hidden-md visible-sm visible-xs hidden-lg" style="padding-top: 20px;">
+	<!-- <div class="row  col-md-12 homepage-search">
+		<label class="row s-heading padding-left col-md-12" for="search">Search</label>
+		<input type="text" class="form-control " id="search">
+	</br>
+	</div> -->
+
+	<div class="height-1 row col-md-12 col-xs-12">
+	<ul class="list-group">
+		<li class="list-heading">Best rated Institutes</li>
+		<li ng-repeat="school in bestschools" class="list-group-item">{{school[0]}}</li>
+	</ul>
+	</div>
+
+	<div class="height-1 row col-md-12 col-xs-12">
+	<ul class="list-group">
+		<li class="list-heading">Best rated Teachers</li>
+		<li ng-repeat="teacher in bestteachers" class="list-group-item">{{teacher[0]}}</li>
+	</ul>
+	</div>
+
+	<div class="height-1  row col-md-12 col-xs-12">
+	<ul class="list-group">
+		<li class="list-heading">Best rated Books</li>
+		<li ng-repeat="book in bestbooks" class="list-group-item">{{book[0]}}</li>
+	</ul>
+	</div>
+</div>
